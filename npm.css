@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* Useful information:
+
+form label color: rgba(0,0,0,.05)
+form input color: rgba(0,0,0,.05)
+form button background color: #fb3e44
+form button letters color: white */
+
+
+
+body {
+  font-family: Poppins ;
+}
+#topBar {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+   
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+  
+  #downBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+   padding: 0 3%;
+   
+  }
+  
+  #section1 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(232,217,217,.3);
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+  }
+  #buildAmazing{
+    font-size: 120px;
+    text-align: center;
+    font-weight: bolder ;
+    margin-top: -10px;
+    
+    
+  }
+  #essencial{
+    font-size: 28px;
+    width: 800px;
+    text-align: center;
+    margin-top: -50px;
+    
+    
+    
+  }
+  .buttonSize {
+    width: 300px;
+    height: 90px;
+    font-size: 30px;
+    font-weight:bold ;
+    border-color: transparent;
+    margin-top: 20px;
+    
+    
+    
+    
+  }
+  #doubleButton{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    
+  }
+      
+      
+      #joinFree{
+        background-color:white;
+      }
+      
+      #seePlans{
+        box-shadow: 8px 8px 0 rgb(248, 196, 196) ;
+        background-color: #FB3B49;
+        color: white;
+      }
+      
+      #searchBar {
+        width:70vw;
+        height: 50px;
+        background-color: rgb(217, 217, 217);
+        border-color: transparent;
+        font-size: 20px;
+        color:  rgb(140, 140, 140);
+        
+     
+        
+      }
+      #middlebar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(217, 217, 217) ;
+        border-radius: 9px;
+      }
+      #searchButton{
+        height: 55px;
+        background-color: #FB3B49;
+        width: 100px;
+       color: white;
+       font-size: 20px;
+      }
+      .npmlogo{
+        width: 100px;
+        height: 35px;
+        margin: 11px 20px
+        
+         
+      }
+      .glasslogo{
+        
+        height: 35px;
+        background-color:rgb(217, 217, 217);
+        padding: 10px;
+        border-radius: 9px;
+        
+
+      }
+    #joinlogin{
+      display: flex;
+      flex-wrap:flex      
+      
+ }
+      #join{
+       box-shadow:inset 0 0 3px rgba(0, 0, 0, 0.604);
+        background-color: white;
+        text-align: center;
+        padding-top: 10px;
+        text-decoration: none;
+        color: black;
+        margin-right: 10px;
+        height: 38px;
+         width: 80px;
+
+      }
+      #login{
+         border-color: transparent;
+         background-color: white;
+         height: 38px;
+         width: 80px;
+         text-align: center;
+         padding-top: 10px;
+         text-decoration: none;
+         color: black;
+        
+      }
+
+      .images{
+        width: 100px;
+      }
+      
+      
+      .section2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-color: #FB3B49;
+        margin-top: -20px;
+        
+      }
+      
+      #hexagonButton{
+        width: 300px;
+        margin-top: 100px;
+        margin-bottom: 75px;
+      }
+      #title2{
+        background-color:rgba(255,204,53,.4) ;
+        transform: skew(9deg,0deg);
+        width: 900px;
+        text-align: center;
+        font-style: italic;
+        font-size: 35px;
+        
+      }
+      #npmText{
+        text-align: center;
+        width: 770px;
+        font-size: 19px
+      }
+
+      #content{
+        display: flex;
+        flex-direction: row ;
+        padding-top: 100px;
+        align-items: flex-start;
+       justify-content: flex-start;
+      align-content: center;
+        gap: 100px;
+        padding-bottom: 75px;
+        
+      }
+      
+      .images{
+        width: 50px;
+
+
+  }
+  .title{
+    
+    color: #FB3B49;
+   font-size: 25px;
+    font-style: bolder;
+   }
+
+  .text{
+     width: 250px;
+  }
+ 
+  #org{
+    width: 450px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+  }
+  #section3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+   
+  }
+  #team{
+    margin: -4px;
+  }
+  #audit{
+    margin: -2px;
+    
+  }
